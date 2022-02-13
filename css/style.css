@@ -156,6 +156,30 @@ position: relative;
   margin-right: 0.8125rem;
 }
 /* NAVBAR END */
+/* SCROLL TO TOP BUTTON START */
+#scroll-to-top {
+  position: fixed;
+  bottom: 1rem;
+  right: -10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 0.7rem;
+  background: var(--turquoiseColor);
+  border: 0;
+  box-shadow:2px 2px 1px var(--blueColor);
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.6s ease-in-out;
+  z-index: 99;
+}
+#scroll-to-top img{
+  height: 18px;
+}
+#scroll-to-top.show {
+  right: 1rem;
+}
+/* SCROLL TO TOP BUTTON END */
 /* HEADER START */
 .header {
   display: flex;
@@ -451,7 +475,25 @@ margin: 0 0 1.8125rem 0;
   margin-bottom: 1.9375rem;
 }
 /* SECTION PRICE PLAN END */
-
+/* FOOTER SECTION START */
+.footer {
+  background-color: var(--lightBlueColor);
+  padding: 1.625rem 0 1.4375rem 0;
+}
+.footer .footer-logo > img {
+  width:3.3125rem;
+  margin-bottom: 0.875rem;
+}
+.footer .sub-footer {
+  display: flex;
+  align-items: center;
+}
+.footer .sub-footer > * {
+  margin-right: 1.5rem;
+  color: var(--headingColor);
+  cursor: pointer;
+}
+/* FOOTER SECTION END */
 /* MEDIA QUERY FOR MOBILE START*/
 @media screen and (max-width: 785px) {}
 /* MEDIA QUERY FOR MOBILE END*/

@@ -10,3 +10,15 @@ toggler.addEventListener("click", function() {
     menu.classList.add("open");
   }
 })
+
+const btnTop = document.getElementById("scroll-to-top");
+
+window.onscroll = function() {
+  console.log(this.scrollY)
+  this.scrollY >= 600 ? btnTop.classList.add("show") : btnTop.classList.remove("show")
+}
+btnTop.onclick = function() {
+  window.scrollTo({
+    top: 0
+  });
+}
