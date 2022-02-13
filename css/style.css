@@ -386,7 +386,71 @@ margin: 0 0 1.8125rem 0;
   font-size: 1rem;
 }
 /* SECTION CUSTOMERS END */
-
+/* SECTION PRICE PLAN START */
+.price-plan {
+  padding: 4.9375rem 0 4.5rem 0;
+}
+.price-plan h2 {
+  font-size: 2.125rem;
+  margin: 0 0 1.0625rem 0;
+  color: var(--headingColor);
+  text-align: center;
+}
+.price-plan .price-plan__subtext {
+  text-align: center;
+  margin:  0 0 3.125rem 0;
+  line-height: 1.8rem;
+}
+.price-plan .card {
+  border: 2px solid var(--lightOrangeBorder);
+  border-radius: 5px;
+  background-color: var(--bodyColor);
+  padding: 2.25rem 2.0625rem 0 ;
+  display: flex;
+  flex-direction: column;
+}
+.card .card__title {
+  margin: 0 0 0.6875rem 0;
+  font-size: 1.375rem;
+  color: var(--subTextColor);
+  font-weight: 500;
+}
+.card .card__price {
+  font-size: 3.25rem;
+  margin: 0 0 1.6875rem 0;
+  color: var(--headingColor);
+  line-height: 1;
+}
+.card .card__price .card__price--month {
+  font-size: 1.375rem;
+  font-weight: 500;
+  color: var(--subTextColor)
+}
+.card__benefits {
+  margin: 0 0 1.1875rem 0;
+  padding:1.1875rem 0;
+  border-top: 1px solid var(--lightGreyBorder);
+  border-bottom: 1px solid var(--lightGreyBorder);
+}
+.card__benefits li {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.5;
+  font-size: 1.0625rem;
+  letter-spacing: -0.5px;
+}
+.card__benefits li:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.card__benefits li img{
+  margin-right: 0.73rem;
+  width: 1.375rem;
+}
+.card .twitter-btn {
+  justify-content: center;
+  margin-bottom: 1.9375rem;
+}
+/* SECTION PRICE PLAN END */
 
 /* MEDIA QUERY FOR MOBILE START*/
 @media screen and (max-width: 785px) {}
