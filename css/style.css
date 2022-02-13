@@ -257,6 +257,137 @@ header .tweets {
   font-weight: 600;
 }
 /* HEADER END */
+/* SECTION FEATURES START */
+.features {
+  padding: 4.9375rem 0;
+}
+.features h2 {
+font-size: 2.125rem;
+color: var(--headingColor);
+letter-spacing: 0.5px;
+font-weight: 600;
+line-height: 2.5rem;
+margin: 0 0 1.8125rem 0;
+}
+.features__boxex {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.features__boxex .box {
+  border: 2px solid var(--lightGreyBorder);
+  padding: 1.25rem 1.375rem;
+  border-radius: 5px;
+}
+.features__boxex .box:not(:first-child),
+.features__boxex .box:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.box img {
+  width: 50px;
+}
+.box h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 1.25rem 0 1.375rem 0;
+  color: var(--headingColor)
+}
+.box p {
+  font-size: 1rem;
+  letter-spacing:-0.5px;
+  line-height: 1.6rem;
+  margin: 0;
+}
+/* SECTION FEATURES END */
+/* SECTION CUSTOMERS START */
+.customers {
+  background: var(--lightBlueColor);
+  padding: 3.6875rem 0 3.125rem 0;
+}
+.customers .customers--headings {
+  font-size: 2.125rem;
+  color: var(--headingColor);
+  letter-spacing: -1.1px;
+  font-weight: 800;
+  line-height: 2.5rem;
+  margin: 0 0 3.125rem 0;
+}
+.customers__feadback {
+  display: flex;
+  flex-direction: column;
+}
+.customers__feadback .feadback {
+  background-color: #fff;
+  padding:1.375rem  1.3125rem;
+  border-radius: 5px;
+}
+.customers__feadback .feadback:not(:last-child) {
+  margin-bottom: 1.3125rem;
+}
+.feadback__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.3125rem;
+}
+.feadback__header > img {
+  width: 52px;
+  height: 52px;
+}
+.feadback__header .feadback__header--info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 0.75rem;
+}
+.feadback__header--info p {
+  margin: 0;
+}
+.feadback__header--info .name {
+  font-size:1.0625rem;
+  color: var(--headingColor);
+  font-weight: 800;
+}
+.feadback__header--info .account-name {
+  font-size:0.8125rem;
+  color: var(--subTextColor);
+  font-weight: 500;
+}
+.feadback__header .twitter-icon {
+  margin-left: auto;
+  width: 20px;
+}
+.feadback__body {
+  padding-bottom: 1.5rem;
+}
+.feadback__body p {
+  line-height: 1.285625rem;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  margin: 0;
+}
+.feadback__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feadback__footer--likes {
+  display: flex;
+}
+.feadback__footer--likes img {
+  width: 22px;
+  margin-right: 0.4375rem;
+}
+.feadback__footer--likes .likes {
+  margin:0;
+  font-size: 1rem;
+}
+.feadback__footer .date {
+  margin: 0;
+  font-size: 1rem;
+}
+/* SECTION CUSTOMERS END */
+
+
 /* MEDIA QUERY FOR MOBILE START*/
 @media screen and (max-width: 785px) {}
 /* MEDIA QUERY FOR MOBILE END*/
